@@ -15,18 +15,20 @@ body
 header,nav,article,div,footer
 {
     padding : 10px;
-    background-color: yellow;
     border:1px solid grey;
     text-align: center;
 }
 
 header
 {
+    background-color: aquamarine;
     width: 100%
+    
 }
 
 footer
 {
+    background-color: aquamarine;
     clear: both;
     width: 100%
 }
@@ -34,6 +36,7 @@ footer
 
 nav
 {
+    background-color: rgb(193, 243, 226);
     float: left;
     height: 200px;
     width:  20% 
@@ -42,6 +45,7 @@ nav
 
 div
 {
+    background-color: rgb(193, 243, 226);
     float: right;
     height: 200px;
     width:  20% 
