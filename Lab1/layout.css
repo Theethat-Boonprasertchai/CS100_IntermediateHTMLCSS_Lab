@@ -19,3 +19,41 @@ header,nav,article,div,footer
     border:1px solid grey;
     text-align: center;
 }
+
+header
+{
+    width: 100%
+}
+
+footer
+{
+    clear: both;
+    width: 100%
+}
+
+
+nav
+{
+    float: left;
+    height: 200px;
+    width:  20% 
+    
+}
+
+div
+{
+    float: right;
+    height: 200px;
+    width:  20% 
+    
+}
+
+
+article
+{   
+    float: left;
+    height: 200px;
+    width:  60% 
+   
+    
+}
