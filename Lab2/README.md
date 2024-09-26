@@ -80,7 +80,12 @@ nav ul li {
 ### Step 4: Styling the Footer
 - Since the `nav` and `main` sections are floated, ensure the footer stays below them by clearing the floats by adding relevant CSS styles to achieve this.
 ```css
-```
+```footer {
+    background-color: #ffe066;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
 
 ---
 ### Step 5: Keeping the Navigation Bar Visible
