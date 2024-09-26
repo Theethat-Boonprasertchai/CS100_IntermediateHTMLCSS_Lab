@@ -29,6 +29,8 @@ nav {
     background-color: #ffa41b;
     padding: 15px;
     text-align: center;
+    float: left;
+    
 }
 
 nav ul {
@@ -38,8 +40,8 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    display: block;
+    margin: 25px 0;
 }
 
 nav ul li a {
@@ -47,6 +49,7 @@ nav ul li a {
     color: #fff;
     font-size: 1.1em;
     transition: color 0.3s ease;
+    
 }
 
 nav ul li a:hover {
